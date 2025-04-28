@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS / Windows sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Model dosyaları
+api/model/*.pkl
+
+# Logs
+*.log
+
+# FastAPI/uvicorn generated
+*.sqlite3
+instance/

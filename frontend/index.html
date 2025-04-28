@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Müşteri Segmentasyonu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>RFM Değerleri ile Müşteri Segmenti Tahmini</h2>
+        <input type="number" id="recency" placeholder="Recency (Gün)">
+        <input type="number" id="frequency" placeholder="Frequency (Sipariş Sayısı)">
+        <input type="number" id="monetary" placeholder="Monetary (Toplam Harcama)">
+        <button onclick="predictSegment()">Segment Tahmin Et</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
