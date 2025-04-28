@@ -38,8 +38,8 @@ retail_customer_segmentation/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/retail_customer_segmentation.git
-cd retail_customer_segmentation
+git clone https://github.com/Sarizeybekk/rfm-customer-segmentation-app.git
+cd rfm-customer-segmentation-app
 ```
 
 ---
