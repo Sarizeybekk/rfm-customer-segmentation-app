@@ -16,7 +16,7 @@ This project performs customer segmentation using the **Online Retail** dataset 
 ##  Project Structure
 
 ```
-retail_customer_segmentation/
+retail_customer_segmentation-app/
 │
 ├── api/
 │   ├── model/
