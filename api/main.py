@@ -8,13 +8,12 @@ app = FastAPI(title="RFM Customer Segmentation API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Her yerden erişim (geliştirme ortamı için uygundur)
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Model ve scaler yükleme
 scaler = joblib.load("model/scaler.pkl")
 kmeans_model = joblib.load("model/kmeans_model.pkl")
 
